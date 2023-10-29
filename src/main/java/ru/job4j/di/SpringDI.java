@@ -14,6 +14,7 @@ public class SpringDI {
         ui.addValue("Ivan ivanov");
         ui.print();
         ui.askStr("what's up?");
+        context.close();
     }
 }
 
